@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
         version = "1.0",
         description = "my API"
 ), tags ={@Tag(name = "name-controller",description = "name-controller description"),
-@Tag(name = "default-controller",description = "default-controller description")})
+        @Tag(name = "default-controller",description = "default-controller description") })
 
 
 @Configuration
